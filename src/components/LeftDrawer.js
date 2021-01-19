@@ -25,8 +25,6 @@ import {
 
 import ReactMarkdown from "react-markdown";
 
-const md = require("./test");
-
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
