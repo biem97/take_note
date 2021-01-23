@@ -1,12 +1,11 @@
 import React from "react";
 import { Container } from "@material-ui/core";
-import LeftDrawer from "./components/LeftDrawer";
+import Layout from "./layouts/Layout";
 
 function App() {
   return (
     <Container maxWidth="lg">
-      <LeftDrawer />
-      <div>Hello worlds</div>
+      <Layout />
     </Container>
   );
 }
